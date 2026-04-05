@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.aider*
+
+# Claude / AI tooling
+.claude/
+CLAUDE.local.md
+.anthropic/
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets/
+
+# Build & dependencies
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Presentation exports (keep source, not exports)
+*.pptx.bak
+exports/
